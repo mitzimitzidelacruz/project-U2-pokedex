@@ -1,19 +1,22 @@
 import React from "react";
 import "./App.css"
 
-const Dir = () => {
+const Nav = () => {
 
-    return (
+return (
+  
         <div>
             <nav>
                 <ul>
-                    <li><button><a href="/pokemons"> POKEMONS </a></button></li>
-                    <li><button><a href="/matricula"> ABOUT </a></button></li>
+                    <li><button><a href="/pokemons"> POKEMONES </a></button></li>
+                    <li><button><a href="/matricula"> SOBRE MI </a></button></li>
                 </ul>
             </nav>
         </div>
     );
 
+   
+
 };
 
-export default Dir;
+export default Nav;

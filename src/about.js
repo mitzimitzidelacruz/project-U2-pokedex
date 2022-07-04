@@ -4,18 +4,18 @@ import "./App.css"
 const Me = () => {
 
     return (
-        <div>
-            <div>
-                <img className="img" src="./img/me.jpg" alt="yo"></img>
+        <div id="aboutme">
+            <div >
+                <img id="cara" src="./img/cara.jpg"></img>
+                <img id="yo" src="./img/mitzi.jpeg " alt="yo" ></img>
+                <img id="cara" src="./img/descarga (1).jpg"></img>
             </div>
             <div>
             <h3>MITZI VERÓNICA ESPARZA DE LA CRUZ</h3><br></br>
             <h5>ESTOS SON MIS HOBBIES</h5><br></br>
 
-            <div class="hobbies">
-        <table>
             <tr>
-                <td>1-Practicar boxeo</td>
+                <td>1-Practic</td>
             </tr>
             <tr>
                 <td>2-Escuchar música </td>
@@ -29,10 +29,12 @@ const Me = () => {
             <tr>
                 <td>5-Salir de fiesta siempre que tengo la oportunidad</td>
             </tr>
+        <table>
+          
         </table>
     </div>
             </div>
-        </div>
+     
      );
 
 };

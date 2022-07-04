@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
+import "./index.css"
 import Me from "./About.js"
-import Dir from "./Navbar.js"
+import Nav from "./Navbar.js"
 import App from "./App.js"
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
   const About = () => <h1>ABOUT</h1>;
   return (
     <>
-    <Dir />
+    <Nav />
       <BrowserRouter>
         <Routes>
           <Route path="/pokemons" element={<App />}></Route>
