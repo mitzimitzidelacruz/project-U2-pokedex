@@ -6,7 +6,7 @@ const Me = () => {
     return (
         <div>
             <div>
-                <img className="Images" src="./img/me.jpg" alt="yo"></img>
+                <img className="img" src="./img/me.jpg" alt="yo"></img>
             </div>
             <div>
             <h3>MITZI VERÓNICA ESPARZA DE LA CRUZ</h3><br></br>
