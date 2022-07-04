@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
-import  Main  from "./Main.js"
 import Me from "./About.js"
 import Dir from "./Navbar.js"
+import App from "./App.js"
 
 const Home = () => {
   const Inicio = () => <h1>Inicio</h1>;
@@ -13,7 +13,7 @@ const Home = () => {
     <Dir />
       <BrowserRouter>
         <Routes>
-          <Route path="/pokemons" element={<Main />}></Route>
+          <Route path="/pokemons" element={<App />}></Route>
           <Route path="/matricula" element={<Me />}></Route>
         </Routes>
       </BrowserRouter>
