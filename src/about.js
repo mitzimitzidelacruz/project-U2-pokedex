@@ -14,7 +14,7 @@ const Me = () => {
             <h3>MITZI VERÓNICA ESPARZA DE LA CRUZ</h3><br></br>
             <h5>ESTOS SON MIS HOBBIES</h5><br></br>
   
-         
+            <h3>MI MATRICULA ES: 190173</h3>
     
             <div id="hobbies">
             <tr>
