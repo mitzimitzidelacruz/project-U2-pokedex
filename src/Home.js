@@ -15,7 +15,7 @@ const Home = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/pokemons" element={<App />}></Route>
-          <Route path="/matricula" element={<Me />}></Route>
+          <Route path="/sobremi" element={<Me />}></Route>
         </Routes>
       </BrowserRouter>
 
