@@ -157,12 +157,14 @@ li a:hover {
 }
 
 #hobbies{
-  background-color: #fafafa;
-  margin: 1rem;
+  background-color: #fdb5b5;
+  margin: 10rem;
   padding: 1rem;
-  border: 2px solid #ccc;
+  border: 6px solid rgb(211, 208, 208);
+  border-radius: 5%;
   /* IMPORTANTE */
   text-align: center;
+
   
 }
 #aboutme{
