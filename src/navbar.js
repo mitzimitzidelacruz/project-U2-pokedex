@@ -9,7 +9,7 @@ return (
             <nav>
                 <ul>
                     <li><button><a href="/pokemons"> POKEMONES </a></button></li>
-                    <li><button><a href="/sobremi"> SOBRE MI </a></button></li>
+                    <li><button><a href="/matricula"> SOBRE MI </a></button></li>
                 </ul>
             </nav>
         </div>
