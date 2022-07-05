@@ -6,9 +6,9 @@ const Me = () => {
     return (
         <div id="aboutme">
             <div>
-                <img id="cara" src="./img/cara.jpg"></img>
+                <img id="cara" src="./img/oso1.png"></img>
                 <img id="yo" src="./img/mitzi.jpeg " alt="yo" ></img>
-                <img id="cara" src="./img/descarga (1).jpg"></img>
+                <img id="cara" src="./img/oso.png"></img>
           
            
             <h3>MITZI VERÓNICA ESPARZA DE LA CRUZ</h3><br></br>
